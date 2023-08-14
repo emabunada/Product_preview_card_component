@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,800;9..144,900&family=Montserrat:wght@500;600;700;800;900&display=swap');
+
+/* font-family: 'Fraunces', serif;
+font-family: 'Montserrat', sans-serif; */
+:root {
+  --white: #ffffff;
+  --darkgrey: #747682;
+  --mediumlightgrey: #707176;
+  --darkgreen: #3D8168;
+  --black: #000000;
+  --bluishblack: #242A31;
+  --cream: #F2E9E2;
+}
+
+
+*, a{
+  color:var(--black);
+ /* cursor: pointer; */
+ font-family: 'Montserrat', sans-serif;
+ font-size: 12px;
+ font-weight: 500;
+ margin: 0px 0px 0px 0px;
+ text-decoration: none;
+}
+
+body {
+  background-color: var(--cream);
+}
+
+.card-container {
+  background-color: var(--white);
+  border-radius: 10px;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  width: 344px;
+  height: 600px;
+  margin:30px 15px;
+}
