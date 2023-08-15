@@ -45,7 +45,7 @@ body {
   height: 40%;
   border-top-left-radius: 0.725rem;
   border-top-right-radius: 0.725rem;
-  background: url("/images/image-product-mobile.jpg") no-repeat center/cover;
+  background: url("../images/image-product-mobile.jpg") no-repeat center/cover;
 }
 .full-content {
   padding: 2rem;
@@ -134,7 +134,7 @@ p {
     border-top-left-radius: 0.725rem;
     border-top-right-radius: 0;
     border-bottom-left-radius: 0.725rem;
-    background: url("/images/image-product-desktop.jpg") no-repeat;
+    background: url("../images/image-product-desktop.jpg") no-repeat;
     background-size: cover;
   }
   .full-content {
